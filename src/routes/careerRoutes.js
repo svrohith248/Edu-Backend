@@ -2,7 +2,7 @@
 const express = require('express');
 const multer = require('multer');
 const cloudinary = require('../config/cloudinary'); // Cloudinary config
-const Career = require('../models/Career');
+const Career = require('../models/career');
 const streamifier = require('streamifier'); // Required for handling buffer streams
 
 const router = express.Router();
